@@ -1,0 +1,26 @@
+Macro 10000
+Coarse 100
+Precise 1
+
+Problem Floats are -1 to 1 in increments of 1/127. 0.1 doesn't exist. 
+
+Precise 1 is -127/127 to 127/127
+Coarse changes to +-127
+127*127 = +-16,129
+
+receivers should track the animated locale. 
+
+TODO:
+    Add drop object to script as an input
+    ADD PREFIX to various top level game objects and animations AND PARAMETERS
+
+    MACRO 127 increments to +-16129
+    COURSE 1 increments to +-127
+    PRECISE 1/127 increments to +-1
+    Create increment FSM (SUB LAYERS)
+Document Parameter names:
+
+
+VRCFURY STUFF
+    - Add boolean input if vrcfury/modular avatar to build it at the root of the project instead.
+    
