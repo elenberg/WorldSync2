@@ -6,7 +6,7 @@ using UnityEngine;
 using VRC.SDK3.Avatars.Components;
 using AnimatorController = UnityEditor.Animations.AnimatorController;
 
-namespace Juzo.WorldSyncGenerator
+namespace JZO.WorldSyncGenerator
 {
     public static class WorldSyncTemplate 
     {

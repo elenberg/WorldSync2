@@ -16,7 +16,7 @@ using UnityEngine.Animations;
 using System.Reflection;
 using HarmonyLib;
 
-namespace Juzo.WorldSyncGenerator
+namespace JZO.WorldSyncGenerator
 {
 
     public class WorldSyncGenerator : MonoBehaviour
@@ -581,6 +581,18 @@ namespace Juzo.WorldSyncGenerator
             aac.ClearPreviousAssets();
         }
 
+        public void generateMultiplexReceiver()
+        {
+        // WorldAxis0 
+        // WorldAxis1
+        // X = 0,0 Y = 1,0 Z = 0,1, Rotation = 1,1
+        // IsFine = 0 or 1
+        // WorldValue = Float 0-1 
+        
+        }
+
     }
+
+
 }
 #endif
